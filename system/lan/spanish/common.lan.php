@@ -3,7 +3,7 @@
 -----------------------------------
 Language Name: Spanish
 Contributor: Ing.Luis E. Hernandez
-Web: www.phpnuxbill.com
+Web: www.phpmixbill.com
 Email: contacto.webland@gmail.com
 
 2022
@@ -21,7 +21,7 @@ $_L['Register_Success'] = '¡Registro exitoso! Puedes iniciar sesión ahora';
 $_L['Sign_In_Member'] = 'Log in to Member Panel';
 $_L['Register_Member'] = 'Regístrese como miembro';
 $_L['Sign_In_Admin'] = 'Panel de administración';
-$_L['Logo'] = 'DIGITAL-RED';
+$_L['Logo'] = 'WIFI X HORA';
 $_L['Username'] = 'Usuario';
 $_L['Password'] = 'Contraseña';
 $_L['PasswordsNotMatch'] = 'Las contraseñas no coinciden';
@@ -217,7 +217,7 @@ $_L['Title'] = 'Título';
 $_L['Message'] = 'Mensaje';
 $_L['Account_Information'] = 'Información de su cuenta';
 $_L['Welcome_Text_User'] = 'Bienvenido a la página de Miembros del Panel, en esta página puede:';
-$_L['Welcome_Text_Admin'] = '<b>MIKRO-RED</b> es un punto de acceso de facturación y PPPOE para Mikrotik que utiliza PHP y la API de Mikrotik para comunicarse con el enrutador. Si obtiene más ganancias con esta aplicación, por favor dónenos.<br>Ver proyecto <a href="https://github.com/hotspotbilling/phpnuxbill" target="_blank">aqui</a>';
+$_L['Welcome_Text_Admin'] = '<b>MIKRO-RED</b> es un punto de acceso de facturación y PPPOE para Mikrotik que utiliza PHP y la API de Mikrotik para comunicarse con el enrutador. Si obtiene más ganancias con esta aplicación, por favor dónenos.<br>Ver proyecto <a href="https://github.com/ibnux/phpmixbill" target="_blank">aqui</a>';
 
 //update
 $_L['Invalid_Username_or_Password'] = 'Usuario o contraseña invalido';
@@ -285,13 +285,15 @@ $_L['You_have_unpaid_transaction'] = 'You have unpaid transaction';
 $_L['TripayPayment_Channel'] = 'TripayPayment Channel';
 $_L['Payment_Channel'] = 'Payment Channel';
 $_L['Payment_check_failed'] = 'Payment check failed.';
-$_L['Order_Package'] = 'Order Package';
+$_L['Order_Package'] = 'Paquete de pedido';
 $_L['Transactions'] = 'Transactions';
-$_L['Payments'] = 'Payments';
-$_L['History'] = 'History';
-$_L['Order_History'] = 'Order History';
+$_L['Payments'] = 'Pagos';
+$_L['History'] = 'Historia';
+$_L['Order_History'] = 'Historial de pedidos';
 $_L['Gateway'] = 'Gateway';
-$_L['Date_Done'] = 'Date Done';
-$_L['Unpaid_Order'] = 'Unpaid Order';
+$_L['Date_Done'] = 'Fecha de finalización';
+$_L['Unpaid_Order'] = 'Pedido no pagado';
 
 
+$_L['Payment_Gateway_saved_successfully'] = 'Pasarela de pago guardada con éxito';
+$_L['ORDER'] = 'ORDEN';
