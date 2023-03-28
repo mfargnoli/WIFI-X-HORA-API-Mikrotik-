@@ -1,4 +1,4 @@
-# PHPNuxBill - Mikrotik Billing
+# WIFI X HORA - Mikrotik Billing
 
 ## Feature
 
