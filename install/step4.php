@@ -26,7 +26,7 @@ if ($cn == '1') {
 define(\'APP_URL\', \'' . $appurl . '\');
 $_app_stage = \'Live\';
 
-// Database PHPNuxBill
+// Database WIFI X HORA
 $db_host	    = \'' . $db_host . '\';
 $db_user        = \'' . $db_user . '\';
 $db_password	= \'' . $db_password . '\';
@@ -49,13 +49,13 @@ if($_app_stage!=\'Live\'){
 }
 ';
 $wConfig = "../config.php";
-    $fh = fopen($wConfig, 'w') or die("Can't create config file, your server does not support 'fopen' function,
-	please create a file named - config.php with following contents- <br/>$input");
+    $fh = fopen($wConfig, 'w') or die("No se puede crear el archivo de configuración, su servidor no admite la función 'fopen',
+por favor cree un archivo llamado - config.php con los siguientes contenidos- <br/>$input");
 
     fwrite($fh, $input);
     fclose($fh);
 
-    $sql = file_get_contents('phpnuxbill.sql');
+    $sql = file_get_contents('wifixhora.sql');
 
     $qr = $dbh->exec($sql);
 
@@ -68,7 +68,7 @@ $wConfig = "../config.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHPNuxBill  Installer</title>
+    <title>WIFI X HORA  Installer</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -89,34 +89,34 @@ $wConfig = "../config.php";
 		</div>
 
 		<div class="span12">
-			<h4> PHPNuxBill  Installer </h4>
+			<h4> WIFI X HORA  Installer </h4>
 			<?php
 			if ($cn == '1') {
 			?>
-				<p><strong>Config File Created and Database Imported.</strong><br></p>
+				<p><strong>Archivo de configuración creado y base de datos importada.</strong><br></p>
 				<form action="step5.php" method="post">
 					<fieldset>
-						<legend>Click Continue</legend>
-						<button type='submit' class='btn btn-primary'>Continue</button>
+						<legend>Haga clic en Continuar</legend>
+						<button type='submit' class='btn btn-primary'>Continuar</button>
 					</fieldset>
 				</form>
 			<?php
 			} elseif ($cn == '2') {
 			?>
-				<p> MySQL Connection was successfull. An error occured while adding data on MySQL. Unsuccessfull
-					Installation. Please refer manual installation in the website github.com/ibnux/phpnuxbill or Contact phpnuxbill@ibnux.com for
-					helping on installation</p>
+				<p> La conexión MySQL fue exitosa. Ocurrió un error al agregar datos en MySQL. Sin éxito
+Instalación. Consulte la instalación manual en el sitio web github.com/ibnux/phpnuxbill o comuníquese con phpnuxbill@ibnux.com para
+ayudando en la instalación</p>
 			<?php
 			} else {
 			?>
-			<p> MySQL Connection Failed.</p>
+			<p> Conexión MySQL fallida.</p>
 			<?php
 			}
 			?>
 		</div>
 	</div>
 
-	<div class="footer">Copyright &copy; 2021 PHPNuxBill. All Rights Reserved<br/><br/></div>
+	<div class="footer">Derechos de autor &copy; 2023 WIFI X HORA. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
 
