@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>PHPNuxBill Updaters</title>
+    <title>WIFI X HORA Updaters</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,7 +23,7 @@
         </div>
 
         <div class="span12">
-            <h4> PHPNuxBill Updater </h4>
+            <h4> WIFI X HORA Updater </h4>
             <pre><?php
             include '../config.php';
             try{
@@ -103,7 +103,7 @@
             ?></pre>
         </div>
     </div>
-    <div class="footer">Copyright &copy; 2021 PHPNuxBill. All Rights Reserved<br /><br /></div>
+    <div class="footer">Derechos de autor &copy; 2023 WIFI X HORA. Reservados todos los derechos<br /><br /></div>
 </body>
 
 </html>
