@@ -249,8 +249,8 @@ $_L['Lang_already_exist'] = 'El nombre del idioma ya existe';
 
 $_L['Payment_Gateway'] = 'Payment Gateway';
 $_L['Community'] = 'Community';
-$_L['1_user_can_be_used_for_many_devices'] = '1 user can be used for many devices?';
-$_L['Cannot_be_change_after_saved'] = 'Cannot be change after saved';
+$_L['1_user_can_be_used_for_many_devices'] = '1 usuario se puede utilizar para muchos dispositivos?';
+$_L['Cannot_be_change_after_saved'] = 'No se puede cambiar después de guardar';
 
 $_L['Explain_Coverage_of_router'] = 'Describa el área de cobertura del Hotspot';
 $_L['Name_of_Area_that_router_operated'] = 'Nama Lokasi/Wilayah Router beroperasi';
