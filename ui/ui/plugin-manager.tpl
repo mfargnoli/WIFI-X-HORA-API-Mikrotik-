@@ -18,7 +18,7 @@
                                     <a href="{$plugin['github']}" target="_blank"
                                         class="btn btn-success"><i class="ion ion-chatboxes"></i> Github</a>
                                     <a {if $zipExt }
-                                            href="{$_url}pluginmanager/install/plugin/{$plugin['id']}" onclick="return confirm('Installing plugin will take some time to complete, do not close the page while it loading to install the plugin')"
+                                            href="{$_url}pluginmanager/install/plugin/{$plugin['id']}" onclick="return confirm('La instalación del complemento tardará un tiempo en completarse, no cierre la página mientras se carga para instalar el complemento')"
                                         {else}
                                             href="#" onclick="alert('PHP ZIP extension is not available')"
                                         {/if}
@@ -47,7 +47,7 @@
                                     <a href="{$pg['github']}" target="_blank"
                                         class="btn btn-success"><i class="ion ion-chatboxes"></i> Github</a>
                                         <a {if $zipExt }
-                                            href="{$_url}pluginmanager/install/payment/{$pg['id']}" onclick="return confirm('Installing plugin will take some time to complete, do not close the page while it loading to install the plugin')"
+                                            href="{$_url}pluginmanager/install/payment/{$pg['id']}" onclick="return confirm('La instalación del complemento tardará un tiempo en completarse, no cierre la página mientras se carga para instalar el complemento')"
                                         {else}
                                             href="#" onclick="alert('PHP ZIP extension is not available')"
                                         {/if}
