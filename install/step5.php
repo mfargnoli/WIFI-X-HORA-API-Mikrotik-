@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHPNuxBill  Installer</title>
+    <title>WIFI X HORA  Installer</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,8 +24,8 @@
 		<div class="span12">
 			<h4> PHPNuxBill  Installer </h4>
 			<p>
-				<strong>Congratulations!</strong><br>
-				You have just install PHPNuxBill !<br>
+				<strong>¡Felicidades!</strong><br>
+				Acabas de instalar WIFI X HORA !<br>
 				To Login Admin Portal:<br>
 				Use this link -
 				<?php
@@ -35,12 +35,12 @@
 				echo '<a href="' . $appurl . '/admin">' . $appurl . '/admin</a>';
 				?>
 				<br>
-				Username: admin<br>
-				Password: admin<br>
-				For security, Delete the <b>install</b> directory inside system folder.
+				Nombre de usuario: admin<br>
+				Contraseña: admin<br>
+				Por seguridad, elimine el directorio <b>install</b> dentro de la carpeta del sistema.
 			</p>
 		</div>
 	</div>
-	<div class="footer">Copyright &copy; 2021 PHPNuxBill. All Rights Reserved<br/><br/></div>
+	<div class="footer">Derechos de autor &copy; 2023 PHPMixBill. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
