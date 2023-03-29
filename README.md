@@ -1,59 +1,53 @@
 # WIFI X HORA - Mikrotik Billing
 
-## Feature
+## Característica
 
-- Voucher Generator and Print
-- Self registration
-- Multi Router Mikrotik
-- Hotspot & PPPOE
-- Easy Installation
-- Multi Language
-- Payment Gateway Midtrans, Xendit and Tripay
-- SMS validation for login
-- Whatsapp Notification to Consumer
-- Telegram Notification for Admin
+- Generador e impresión de Tickets
+- Auto registro
+- Enrutador múltiple Mikrotik
+- Hortspot y PPPOE
+- Fácil instalación
+- Multi lenguaje
+- Pasarela de Pago Paypal
+- Validación de SMS para iniciar sesión
+- Notificación de Whatsapp al Cliente
+- Notificación de Telegram para Admin
 
-## Payment Gateway
+Haga clic en el enlace para descargar
 
-- [Tripay.com](https://github.com/hotspotbilling/phpnuxbill-tripay) | Indonesia
-- [Xendit.com](https://github.com/hotspotbilling/phpnuxbill-xendit) | Indonesia and Philippine ( Philippine not tested )
-- [Duitku.com](https://github.com/hotspotbilling/phpnuxbill-duitku) | Indonesia
+Ir a discusión si desea otra pasarela de pago
 
-Click link to download
+Algo de documentación
 
-Goto Discussionif you want another Payment Gateway
+## Requisitos del sistema
 
-Some documentation
+La mayoría de los servidores web actuales con PHP y MySQL instalados podrán ejecutar WIFI X HORA
 
-## System Requirements
+Requerimientos mínimos
 
-Most current web servers with PHP & MySQL installed will be capable of running PHPNuxBill
+- Sistema operativo Linux o Windows
+- PHP Versión 7.2+
+- Soporte para PDO y MySQLi
+- Biblioteca de imágenes GD2
+- Soporte para rizos
+- MySQL Versión 4.1.x y superior
 
-Minimum Requirements
+se puede instalar en el dispositivo Raspberry Pi.
 
-- Linux or Windows OS
-- PHP Version 7.2+
-- Both PDO & MySQLi Support
-- GD2 Image Library
-- CURL support
-- MySQL Version 4.1.x and above
+El problema con Windows es difícil de configurar cronjob, mejor Linux
 
-can be Installed in Raspberry Pi Device.
+## Instalación
 
-The problem with windows is hard to set cronjob, better Linux
-
-## Installation
-
-### Git Clone
+### Clonar Git
 
 clone this repository or download zip or release
 
-1. Rename **pages_template** to **pages**
-2. Rename **config.sample.php** to **config.php** and make it writeable (chmod 777)
-3. make writeable folder **ui/cache/** and **ui/compiled**
-4. Open web and run installation
-5. set [cronjob](https://github.com/hotspotbilling/phpnuxbill/wiki/Cron-Jobs) or scheduller for **system/cron.php**
-6. make **config.php** unwriteable (chmod 644)
+1. Cambie el nombre de **pages_template** a **pages**
+2. Cambie el nombre de **config.sample.php** a **config.php** y hágalo escribible (chmod 777)
+3. hacer una carpeta grabable **ui/cache/** y **ui/compiled**
+4. Abra la web y ejecute la instalación
+5. configure [cronjob](https://github.com/hotspotbilling/phpnuxbill/wiki/Cron-Jobs) o programador para **system/cron.php**
+6. hacer que **config.php** no se pueda escribir (chmod 644)
 
 ### Composer install
 
