@@ -23,7 +23,7 @@
         </div>
 
         <div class="span12">
-            <h4> PHPNuxBill Installer </h4>
+            <h4> WIFI X HORA Installer </h4>
             <?php
             $passed = '';
             $ltext = '';
