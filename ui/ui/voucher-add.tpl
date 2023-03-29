@@ -42,7 +42,7 @@
                     <div class="form-group">
                         <label class="col-md-2 control-label">{$_L['Length_Code']}</label>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" name="lengthcode" value="12">
+                            <input type="text" class="form-control" name="lengthcode" value="5">
                         </div>
                     </div>
 
