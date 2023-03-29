@@ -31,6 +31,8 @@
                     Fecha de lanzamiento: 30/10/2023<br>
                     Por: WIFI X HORA [ <a href="https://github.com/freedarwuin/WIFI-X-HORA-API-Mikrotik-" target="_blank">https://github.com/freedarwuin/WIFI-X-HORA-API-Mikrotik-</a> ]<br>
                     Donaciones de paypal: <b>darwuinjose@gmai.com</b><br>
+                    Donaciones de Zinli: <b>darwuinjose@gmai.com</b><br>
+                    Donaciones de Binance: <b>darwuinjose@gmai.com</b><br>
                     <br>
                     <strong>Condiciones de uso:</strong><br>
                     Estos Términos de uso se aplican a todas las versiones.<br><br>
