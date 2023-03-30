@@ -2,7 +2,7 @@
     </div>
     <footer class="main-footer">
         <div class="pull-right hidden-xs" id="version" onclick="location.href = '{$_url}community#latestVersion';"></div>
-        PHPNuxBill by <a href="https://github.com/freedarwuin/WIFI-X-HORA-API-Mikrotik-" rel="nofollow noreferrer noopener"
+        WIFI X HORA by <a href="https://github.com/freedarwuin/WIFI-X-HORA-API-Mikrotik-" rel="nofollow noreferrer noopener"
             target="_blank">WIFI X HORA</a>, Theme by <a href="https://adminlte.io/" rel="nofollow noreferrer noopener"
             target="_blank">AdminLTE</a>
     </footer>
