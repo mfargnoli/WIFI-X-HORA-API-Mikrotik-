@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="span12">
-			<h4> PHPNuxBill  Installer </h4>
+			<h4> WIFI X HORA  Installer </h4>
 			<p>
 				<strong>¡Felicidades!</strong><br>
 				Acabas de instalar WIFI X HORA !<br>
@@ -41,6 +41,6 @@
 			</p>
 		</div>
 	</div>
-	<div class="footer">Derechos de autor &copy; 2023 PHPMixBill. Reservados todos los derechos<br/><br/></div>
+	<div class="footer">Derechos de autor &copy; 2023 WIFI X HORA. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
