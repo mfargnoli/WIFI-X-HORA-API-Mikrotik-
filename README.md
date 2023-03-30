@@ -36,14 +36,7 @@ se puede instalar en el dispositivo Raspberry Pi.
 
 El problema con Windows es difícil de configurar cronjob, mejor Linux
 
-## Instalación Linux
-
-git clone https://github.com/freedarwuin/WIFI-X-HORA-API-Mikrotik-.git
-mv WIFI-X-HORA-API-Mikrotik-/* /var/www/html/
-rm -R WIFI-X-HORA-API-Mikrotik-/
-mv /var/www/html/pages_template /var/www/html/pages
-chmod 777 -R /var/www/html/*
-rm /var/www/html/config.sample.php
+## Instalación
 
 ### Clonar Git
 
