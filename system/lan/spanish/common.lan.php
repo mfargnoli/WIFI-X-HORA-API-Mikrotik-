@@ -1,16 +1,4 @@
 <?php
-/*
------------------------------------
-Language Name: Spanish
-Contributor: Ing.Luis E. Hernandez
-Web: www.phpmixbill.com
-Email: contacto.webland@gmail.com
-
-2022
-Contributor: Alucard (@alucard)
-
-------------------------------------
-*/
 
 $_L['Login'] = 'Entrar';
 $_L['Register'] = 'Registro';
