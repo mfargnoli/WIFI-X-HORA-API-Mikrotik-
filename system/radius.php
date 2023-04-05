@@ -1,7 +1,4 @@
 <?php
-/**
-* PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
-**/
 
 if(php_sapi_name() !== 'cli'){
     die("RUN ON COMMAND LINE ONLY BY RADIUS ENGINE");
