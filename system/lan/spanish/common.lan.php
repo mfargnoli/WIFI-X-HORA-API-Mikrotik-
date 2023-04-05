@@ -299,4 +299,4 @@ $_L['Plugin'] = 'Plugin';
 $_L['Buy_Package'] = 'Buy Package';
 $_L['Activation_History'] = 'Activation History';
 $_L['No_Payment_Gateway_Available'] = 'No Payment Gateway Available';
-$_L['Admin_has_not_yet_setup_Paypal_payment_gateway_please_tell_admin'] = 'Admin has not yet setup Paypal payment gateway, please tell admin';
+$_L['Admin_has_not_yet_setup_Paypal_payment_gateway_please_tell_admin'] = 'El administrador aún no ha configurado la pasarela de pago de Paypal, informe al administrador';
